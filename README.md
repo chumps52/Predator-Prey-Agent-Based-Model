@@ -9,6 +9,6 @@
 ### nsteps - number of iterations required
 
 
-### ecolab(size,nr,nf,nh,nsteps)
+### command - ecolab(size,nr,nf,nh,nsteps)
 
 
