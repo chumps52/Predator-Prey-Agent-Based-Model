@@ -20,5 +20,4 @@ global PARAM
     PARAM.R_MAXAGE=365;      %maximum age allowed 
     PARAM.F_MAXAGE=834;
     PARAM.H_KILLEFFICIENCY=10;
-    PARAM.H_SATISFIED=3;
     PARAM.H_KILLS = 0;
