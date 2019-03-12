@@ -2,7 +2,7 @@
 
 ## Run code:
 
-### size = size of model environmnet in km 
+### size = size of model environmnet in km^2 
 ### nr - initial number of hares agents
 ### nf - initial number of lynx agents
 ### nh - initial number of human agents
