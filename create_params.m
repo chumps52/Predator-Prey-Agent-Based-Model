@@ -11,7 +11,7 @@ global PARAM
     PARAM.R_SPD=26;         %speed of movement - units per itn (Hare)
     PARAM.F_SPD=18;         %speed of movement - units per itn (Lynx)
     PARAM.H_SPD=16;
-    PARAM.R_BRDFQ=11;      %breeding frequency - iterations  (CHANGE HERE ONLY)
+    PARAM.R_BRDFQ=9;      %breeding frequency - iterations  (CHANGE HERE ONLY)
     PARAM.F_BRDFQ=42;
     PARAM.R_MINFOOD=0;      %minimum food threshold before agent dies 
     PARAM.F_MINFOOD=0;

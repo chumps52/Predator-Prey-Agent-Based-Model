@@ -73,7 +73,7 @@ function plot_results(agent,nsteps,fmode,outImages)
         Z=ENV_DATA.food;
         H=zeros(bm,bm);
         hs=surf(Y,X,H,Z);               %plot food distribution on plain background
-        cm=colormap('gray');
+        cm=colormap('summer');
         icm=flipud(cm);
         colormap(icm);
         set(hs,'SpecularExponent',1);       %sets up lighting
@@ -100,7 +100,7 @@ function plot_results(agent,nsteps,fmode,outImages)
         set(h,'specularstrength',0.2)
         axis off
         axis equal
-        set(gcf,'color',[1 1 1]);
+        set(gcf,'color',[0 1 0]);
 
         uicontrol('Style','pushbutton',...
                   'String','PAUSE',...
